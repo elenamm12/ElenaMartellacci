@@ -24,15 +24,20 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    
+    
 }
 
 .modelos{
     color: white;
+    padding: 50px;
+
 }
 
 .modelos_fotos{
     overflow: hidden;
+    
 }
 
 .modelos_fotos img {
