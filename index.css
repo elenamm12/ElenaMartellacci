@@ -8,6 +8,41 @@ body{
     font-family: avenir next;
 }
 
+.nav_bar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.nav_bar .secciones{
+    display: flex;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+.nav_bar .secciones h4{
+    flex: 1;
+}
+
+.hero{
+    padding: 60px;
+    width: 100%;
+    height: 350px;
+    background-size: 100%;
+    background-image: url(https://cnet2.cbsistatic.com/img/-qvJVYfnJOTphXGOc2fzSNnwQPk=/1600x900/2018/06/07/78e06ce4-81e0-4b35-992f-6a2b3585b931/mojave-night.jpg);
+    text-align: center;
+}
+
+.title{
+    color: bisque;
+    font-size: 85px;
+}
+
+.text{
+    color: white;
+}
+
 .portafolio{
     background-color: white;
     height: 900px;
