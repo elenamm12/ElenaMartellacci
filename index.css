@@ -45,9 +45,8 @@ body{
 
 .portafolio{
     background-color: white;
-    height: 900px;
+    height: auto;
     
-
 }
 
 
@@ -78,4 +77,30 @@ body{
 .modelos_fotos img {
     width: auto;
     height: 100%;
+}
+
+.foto_personal{
+
+    width: auto;
+    height: 600px;
+}
+
+.acerca{
+    display: flex;
+    justify-content: center;
+
+}
+
+.bloque_acerca{
+    display: flex;
+
+}
+
+.title_personal{
+    color: darkslategrey;
+    font-size: 50px;
+}
+
+.bloque1{
+    padding: 40px;
 }
