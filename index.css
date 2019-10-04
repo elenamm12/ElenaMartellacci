@@ -91,9 +91,8 @@ body{
 
 }
 
-.bloque_acerca{
-    display: flex;
-
+.acerca{
+    padding: 70px;
 }
 
 .title_personal{
@@ -102,5 +101,12 @@ body{
 }
 
 .bloque1{
-    padding: 40px;
+    padding-left: 40px;
+    display: flex;
+}
+
+
+.bloquesitos{
+    padding: 40px; 
+    width: 80%;
 }
