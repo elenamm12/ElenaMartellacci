@@ -8,36 +8,34 @@ body{
     font-family: avenir next;
 }
 
-.nav_bar{
-    width: 100%;
-    height: 60px;
-    background-color: lightpink;
+.portafolio{
+    background-color: white;
+    height: 900px;
+    
+
 }
 
-.nav_bar .secciones{
+
+.bloque{
+    background-color: black;
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
     display: flex;
-    text-align: center;
-    line-height: 60px;
+    align-items: center;
 }
 
-.nav_bar .secciones h4{
-    flex: 1;
+.modelos{
+    color: white;
 }
 
-.hero{
-    padding: 60px;
-    width: 100%;
-    height: 350px;
-    background-size: 100%;
-    background-color: bisque;
-    text-align: center;
+.modelos_fotos{
+    overflow: hidden;
 }
 
-.title{
-    color: chocolate;
-}
-
-.text{
-    background-color: bisque;
-    color: darkslategrey;
+.modelos_fotos img {
+    width: auto;
+    height: 100%;
 }
