@@ -8,20 +8,22 @@
 </head>
 <body>
 
-        <div class="nav_bar">
+        <div class="nav_bar" id="nav">
                 <div class="secciones">
-                    <h4 class="nav_texto">Mi Portafolio</h4>
+                
+                    <a class="nav_texto" href="#portafolio"><h4>Mi Portafolio</h4></a>
             
-                    <h4 class="nav_texto">Acerca de mí</h4>
-             
-                    <h4 class="nav_texto">Habilidades y Destrezas</h4>
-            
-                    <h4 class="nav_texto">Contacto</h4>
+                    <a class="nav_texto" href="#acerca"><h4>Acerca de mí</h4></a>
+
+                    <a class="nav_texto" href="#habilidades"><h4>Habilidades y Destresas</h4></a>
+
+                    <a class="nav_texto" href="#contacto"><h4>Contacto</h4></a>
+ 
                 </div>
             
             </div>
             
-            <div class="hero">
+            <div class="hero" id="hero">
                 <script src="/index.js"></script>
                     <H1 class="title">ELENA</H1>
                     <H1 class="title">MARTELLACCI</H1>    
@@ -30,12 +32,12 @@
                 </div>
             </div>   
 
-    <div class="portafolio">
+    <div class="portafolio" id="portafolio">
         <div class="bloque">
             <div class="modelos">
                 <h2>APPLE.COM</h2>
-                <h3>Tecnologias utilizadas: html 5, css, java script y angular </h3>
-                <h3>Realizado en: 2017</h3>
+                <h3 class="extra">Tecnologias utilizadas: html 5, css, java script y angular </h3>
+                <h3 class="extra">Realizado en: 2017</h3>
                 <a href="https://www.apple.com/">VER MÁS</a>
             </div>
             <div class="modelos_fotos">
@@ -46,8 +48,8 @@
         <div class="bloque">
             <div class="modelos">
                 <h2>WORLDMUN.COM</h2>
-                <h3>Tecnologias utilizadas: html 5, css, java script y angular </h3>
-                <h3>Realizado en: 2015</h3>
+                <h3 class="extra">Tecnologias utilizadas: html 5, css, java script y angular </h3>
+                <h3 class="extra">Realizado en: 2015</h3>
                 <a href="https://worldmun.org">VER MÁS</a>
             </div>
             <div class="modelos_fotos">
@@ -59,8 +61,8 @@
         <div class="bloque">
                 <div class="modelos">
                     <h2>MERCADOLIBRE.COM</h2>
-                    <h3>Tecnologias utilizadas: html 5, css, java script y angular</h5>
-                    <h3>Realizado en: 2012</h5>
+                    <h3 class="extra">Tecnologias utilizadas: html 5, css, java script y angular</h5>
+                    <h3 class="extra">Realizado en: 2012</h5>
                     <a href="https://www.mercadolibre.com.ve/">VER MÁS</a>
                 </div>
                 <div class="modelos_fotos">
@@ -68,9 +70,14 @@
                 </div>
     
         </div>
+
+        <div>
+                <a title="flecha" href="#nav">
+                <img class="flecha" src="./img/25366.svg" alt="flecha" /></a>
+        </div>
     </div>
 
-    <div class="acerca">
+    <div class="acerca" id="acerca">
             <img class="foto_personal" src="./img/MUN-63.JPG" alt="thats me">        
         <div class="bloque_acerca">
             <div class="bloque1">
@@ -139,7 +146,7 @@
         </div>
     </div>
 
-    <div class="habilidades"> 
+    <div class="habilidades" id="habilidades"> 
         <div class="sub_habilidades">
             <div class="destresas">
                 <img class="img_habilidades" src="./img/CSS.png" alt="CSS">
@@ -165,9 +172,33 @@
             </div>
 
         </div>
-        
+    </div>
 
-        
+    <div class="contacto" id="contacto">
+        <div class="macro_bloques">
+            <div class="mini_bloques">
+                    <a title="instagram" href="https://www.instagram.com/elenamm99/">
+                    <img class="redes" src="./img/instagram-png-instagram-png-logo-1455.png" alt="instagram" /></a>
+
+            </div>
+
+            <div class="mini_bloques">
+                <a title="facebook" href="https://www.facebook.com/elenamm99">
+                <img class="redes" src="./img/90dd9f12fdd1eefb8c8976903944c026-icono-de-facebook-logo-by-vexels.png" alt="facebook" /></a>
+            </div>
+
+            <div class="mini_bloques">
+                <a title="linkedin" href="https://ve.linkedin.com/in/elena-martellacci-044b32147?trk=people-guest_profile-result-card_result-card_full-click">
+                <img class="redes" src="./img/LinkedIn_logo_initials.png" alt="linkedin" /></a>
+            </div>
+    
+            <div class="mini_bloques">
+                <a title="whatsapp" href="https://wa.me/584127390481">
+                <img class="redes" src="./img/whatsapp.png" alt="whatsapp" /></a>
+            </div>
+    
+        </div>
+
 
     </div>
 </body>
