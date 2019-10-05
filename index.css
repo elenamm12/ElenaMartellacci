@@ -5,7 +5,7 @@
 }
 
 body{
-font-family: avenir next;
+    font-family: avenir next;
 }
 
 .nav_bar{
@@ -41,4 +41,72 @@ font-family: avenir next;
 
 .text{
     color: white;
+}
+
+.portafolio{
+    background-color: white;
+    height: auto;
+    
+}
+
+
+.bloque{
+    background-color: black;
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.modelos{
+    color: white;
+    padding: 50px;
+
+}
+
+.modelos_fotos{
+    overflow: hidden;
+    
+}
+
+.modelos_fotos img {
+    width: auto;
+    height: 100%;
+}
+
+.foto_personal{
+
+    width: auto;
+    height: 600px;
+}
+
+.acerca{
+    display: flex;
+    justify-content: center;
+
+}
+
+.acerca{
+    padding: 70px;
+}
+
+.title_personal{
+    color: darkslategrey;
+    font-size: 50px;
+}
+
+.bloque1{
+    padding-left: 40px;
+    display: flex;
+}
+
+
+.bloquesitos{
+    padding: 40px; 
+    width: 80%;
 }
